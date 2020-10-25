@@ -1,10 +1,13 @@
 import React from 'react';
 import styles from "./log.module.scss";
+import { View } from "@tarojs/components";
+import Tarbar from '@components/tabbar/tabbar';
 const log = (props) => {
     return (
-        <div className={styles.log}>
+        <View className={styles.log}>
             log
-        </div>
+            <Tarbar ></Tarbar>
+        </View>
     );
 }
 

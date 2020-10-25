@@ -14,7 +14,7 @@ const App = (props: AppType) => {
   }, [])
   return (
     <Provider store={store}>
-      {props.children}
+      { props.children }
     </Provider>
   ) 
 }

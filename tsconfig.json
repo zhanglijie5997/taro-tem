@@ -26,6 +26,7 @@
     "paths": {
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],
+      "@static/*": ["src/static/*"],
       "@store/*": ["src/store/*"], // css, html中需要 `~@assets/*`
     }
   },

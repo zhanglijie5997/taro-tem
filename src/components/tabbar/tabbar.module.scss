@@ -1,0 +1,19 @@
+    .tabbar {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        .item {
+            flex: 1;
+            .i_img {
+                display: block;
+                margin: 0 auto;
+                width: 40px;
+                height: 40px;
+            }
+            .i_text {
+                text-align: center;
+            }
+        }
+    }

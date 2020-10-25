@@ -1,2 +1,2 @@
 
-export const a: number = 3;
+export const a: number = 0;

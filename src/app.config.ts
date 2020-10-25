@@ -1,7 +1,7 @@
 export default {
   pages: [
+    'pages/log/log',
     'pages/index/index',
-    'pages/log/log'
   ],
   window: {
     backgroundTextStyle: 'light',
@@ -14,14 +14,14 @@ export default {
     list: [
       { 
         pagePath: 'pages/index/index',
-        iconPath: '',
-        selectedIconPath: '',
+        iconPath: 'static/images/heigshouye_9_12.9@2x.png',
+        selectedIconPath: 'static/images/honghuiyuan_9_12.9@2x.png',
         text: '首页'
       },
       { 
         pagePath: 'pages/log/log',
-        iconPath: '',
-        selectedIconPath: '',
+        iconPath: 'static/images/heigshouye_9_12.9@2x.png',
+        selectedIconPath: 'static/images/honghuiyuan_9_12.9@2x.png',
         text: '首页'
       }
     ]
