@@ -10,7 +10,7 @@ export default {
     navigationBarTextStyle: 'black'
   },
   tabBar: {
-    custom: true,
+    custom: true, // 为true 开启自定义导航
     list: [
       { 
         pagePath: 'pages/index/index',

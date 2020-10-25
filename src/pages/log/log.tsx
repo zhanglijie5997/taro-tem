@@ -1,9 +1,9 @@
 import React from 'react';
-
-const log = () => {
+import styles from "./log.module.scss";
+const log = (props) => {
     return (
-        <div>
-            
+        <div className={styles.log}>
+            log
         </div>
     );
 }
